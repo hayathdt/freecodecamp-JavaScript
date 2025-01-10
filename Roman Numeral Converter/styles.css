@@ -1,0 +1,76 @@
+/* Style général du body */
+body {
+    font-family: 'Times New Roman', serif;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/marble.png');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2c1810;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    background-color: #f9f3e6;
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: 0 4px 20px rgba(44, 24, 16, 0.2);
+    text-align: center;
+    width: 350px;
+    border: 2px solid #8b4513;
+  }
+  
+  h1 {
+    font-family: 'Trajan Pro', 'Times New Roman', serif;
+    color: #8b4513;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 10px;
+  }
+  
+  /* Style du champ de saisie */
+  input[type="number"] {
+    width: calc(100% - 26px); 
+    padding: 12px;
+    margin: 15px auto;
+    font-size: 16px;
+    border: 1px solid #8b4513;
+    background-color: #fff;
+    font-family: 'Times New Roman', serif;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  /* Style du bouton */
+  button {
+    padding: 12px 25px;
+    background-color: #8b4513;
+    color: #f9f3e6;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  button:hover {
+    background-color: #654321;
+    transform: scale(1.05);
+  }
+  
+  /* Style du texte de sortie */
+  #output {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c1810;
+    padding: 15px;
+    border-top: 2px solid #8b4513;
+  }
+  
